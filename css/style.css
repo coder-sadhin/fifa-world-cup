@@ -43,6 +43,13 @@ section {
     left: 140px;
 }
 
+.live-button:hover {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    transition-delay: 0.5s;
+}
+
 .head-text-button h2 {
     font-size: 70px;
     font-weight: 700;
@@ -111,6 +118,10 @@ section {
     padding: 20px 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .button-3 {
     color: #ffffff;
     background-color: #DD0000;
@@ -132,7 +143,7 @@ section {
 .blog {
     width: 100%;
     height: 362px;
-    background-color: aqua;
+    border: 1px solid #c8b5b5;
     border-radius: 10px;
     padding-bottom: 20px;
 }
@@ -165,9 +176,19 @@ section {
     font-size: 16px;
 }
 
+/*----------------------
+ blog style finish 
+-------------------- */
 
 
+/* upcoming start  */
+.up-coming-mach {
+    height: 242px;
+}
 
+.up-coming-buttom-side {
+    margin-top: -30px;
+}
 
 
 footer {
@@ -191,7 +212,7 @@ footer hr {
 footer nav ul {
     display: flex;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     margin-top: 50px;
 }
 
@@ -207,4 +228,14 @@ footer nav ul li a {
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+
+.follow-footer {
+    text-align: center;
+    background-color: #161616;
+    color: aqua;
+    font-size: 30px;
+
 }
