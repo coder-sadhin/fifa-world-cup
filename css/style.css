@@ -43,12 +43,6 @@ section {
     left: 140px;
 }
 
-.live-button:hover {
-    position: relative;
-    width: 400px;
-    overflow: hidden;
-    transition-delay: 0.5s;
-}
 
 .head-text-button h2 {
     font-size: 70px;
@@ -75,7 +69,7 @@ section {
     display: flex;
     gap: 10px;
     flex-direction: row;
-
+    transition-duration: 1s;
 }
 
 
